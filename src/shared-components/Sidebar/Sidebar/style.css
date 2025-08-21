@@ -1,0 +1,35 @@
+
+.sidebar nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+.text{
+  color: antiquewhite;
+  
+}
+
+nav{
+  padding-top: 30px;
+}
+.dashboard{
+  background-color: #faf8f8;
+  width: 50px;
+  border-radius: 20px;
+  color: black;
+}
+.logout{
+  margin-top: 300px;
+}
+.sidebar nav ul li a {
+  display: block;
+  color: #333;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar nav ul li a:hover {
+  background-color: #ddd;
+}
+ListItemText{
+  color: #ddd;
+}

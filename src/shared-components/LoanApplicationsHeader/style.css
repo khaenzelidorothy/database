@@ -1,0 +1,109 @@
+
+.loan-applications-container {
+  background: #fff;
+  border-radius: 12px;
+  margin: 0 auto;
+  box-shadow: 0 2px 16px #dbdbdb20;
+  padding: 24px 18px 22px;
+  font-family: 'Inter', sans-serif;
+  
+}
+
+.status-pending {
+  color: orange;
+  font-weight: bold;
+}
+
+.header-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cancel-btn {
+  background-color: #af1c1c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cancel-btn:hover {
+  background-color: #af1c1c;
+}
+
+
+.count-indicator {
+  background: #f2f7f5; 
+  color: #025318; 
+  border-radius: 12px; 
+  font-weight: bold; 
+  padding: 7px 20px;
+}
+.header-row{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.tabs {
+  display: flex;
+  gap: 19px;
+  margin-bottom: 28px;
+  margin-top: 12px;
+}
+
+.tab {
+  padding: 7px 20px;
+  border-radius: 8px;
+  color: #02310e;
+  font-weight: 500;
+  cursor: pointer;
+  background: #ededed;
+}
+
+.tab.active {
+  background: #025318;
+  color: #fff;
+  cursor: default;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 16px;
+}
+
+th {
+  background: #36523A;
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 20px;
+}
+
+#header{
+  border-radius: 0px 20px 0px 0px ;
+}
+
+#header-start{
+  border-radius: 20px 0px 0px 0px ;
+}
+
+td {
+  background: #f7f9f6;
+  font-size: 16px;
+  text-align: center;
+  padding: 7px;
+  height: 50px;
+  border-bottom: 1px solid rgb(207, 207, 207);
+}
+
+.details-link {
+  color: #025318;
+  cursor: pointer;
+  font-weight: 500;
+  text-decoration: underline;
+}

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.bank-container {
+  width: 80%;
+  margin-left: 500px;
+  margin-top: 100px;
+  background: #e8f3fa;
+  border-radius: 8px;
+  padding: 32px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  font-family: 'Inter', sans-serif;
+}
+
+.bank-container h2 {
+  text-align: center;
+  margin-bottom: 62px;
+  letter-spacing: 2px;
+  font-size: 40px;
+  font-family: 'Inter', sans-serif;
+}
+
+.detailslink {
+  background-color: #011204;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  font-family: 'Inter', sans-serif;
+  width: 80%;
+}
+
+.detailslink:hover {
+  background-color: #004d00;
+}
+
+.shared-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 16px;
+  font-size: 20px;
+  margin-left: 1cm;
+  font-family: 'Inter', sans-serif;
+}
+
+.shared-table th,
+.shared-table td {
+  padding: 12px 16px;
+  text-align: left;
+}
+
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+
+.modal-content {
+  background: white;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 700px;
+  padding: 32px;
+  position: relative;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  max-height: 80vh;
+  overflow-y: auto;
+  font-family: 'Inter', sans-serif;
+}
+
+#modal-bank-close-btn {
+  padding: 10px 24px;
+  background-color: #b22222;  
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 40px;  
+  transition: background-color 0.3s ease;
+}
+
+
+
+.modal-bank-close-btn {
+  background-color: #800000;  
+}
+
+
+
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  font-family: 'Inter', sans-serif;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  border: 1px solid #006400;
+  background: white;
+  color: #006400;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+}
+
+.pagination button:hover:not(:disabled) {
+  background: #006400;
+  color: white;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pagination button.active {
+  background: #004d00;
+  color: white;
+  pointer-events: none;
+}
+
+
+@media screen and (min-width: 1440px){
+  .bank-container {
+    margin-top: 50px;
+    margin-left: 300px;
+    width: 70vw;
+    height: 80vh;
+  }
+  .bank-container h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1366px) and (max-height: 768px) {
+  .bank-container {
+    margin-top: 20px;
+    margin-left: 300px;
+    width: 70vw;
+    height: 80vh;
+  }
+  .bank-container h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1280px) and (max-height: 800px) {
+  .bank-container {
+    margin-top: 40px;
+    border-radius: 10px;
+    margin-left: 270px;
+    width: 70vw;
+    height: 79vh;
+  }
+  .bank-container h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) and (max-height: 600px) {
+  .bank-container {
+    margin-top: 0.1px;
+    margin-left: 220px;
+    width: 70vw;
+    height: 88vh;
+  }
+  .bank-container h2 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+}
